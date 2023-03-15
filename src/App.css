@@ -32,7 +32,7 @@ html {
 
 .user {
   color: #fff;
-  margin-top: -5px;
+  margin-top: -10px;
   font-size: 30px;
 }
 
@@ -40,7 +40,7 @@ html {
 .hydrationCard {
   font-family: 'Nunito';
   background-color: #f3f3f3;
-  padding: 10px 20px 0px 20px;
+  padding: 5px 20px 5px 20px;
   min-height: 200px;
   font-size: 25px;
   border-radius: 15px;
@@ -64,7 +64,6 @@ html {
   color: #616161;
   margin-top: -40px;
   width: 200px;
-  padding-bottom: 20px;
 }
 
 .image {
@@ -75,6 +74,13 @@ html {
 }
 
 /* STATISTICS */
+.waterLabel {
+  margin: 20px auto 0 auto;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
 .stats {
   font-family: 'Nunito';
   color: #fff;
@@ -82,6 +88,7 @@ html {
   display: grid;
   grid-template-columns: auto auto;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .stats > p {
@@ -100,17 +107,9 @@ html {
   margin: -10px auto 0 auto;
 }
 
-/* PERCENTAGE */
-.percentage {
-  margin-top: 30px;
-  font-family: 'Nunito';
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
 .circle {
   border-radius: 50%;
-  margin: auto;
+  margin: 20px auto auto auto;
   height: 150px;
 	width: 150px;
   border: 5px solid #37FCFF;
@@ -130,12 +129,35 @@ html {
   margin-top: -50px;
 }
 
-/* WARNING */
+/* WARNINGS */
 .warning {
   background-color: #f3f3f3;
   min-height: 50px;
   width: 100%;
-  margin-top: 30px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.2), 0 6px 20px 0 rgba(78, 78, 78, 0.19);
+  border-radius: 15px;
+}
+
+/* ACTIONS */
+.actions {
+  font-family: 'Nunito';
+  color: #fff;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 20px;
+  grid-gap: 10px;
+  margin-top: -10px;
+}
+
+.action-items {
+  background: linear-gradient(0deg, rgba(45,145,253,1) 0%, rgba(34,193,195,1) 98%);
+  min-height: 50px;
+  width: 175px;
+  margin: auto;
+  margin-top: 40px;
   box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.2), 0 6px 20px 0 rgba(78, 78, 78, 0.19);
   border-radius: 15px;
 }
@@ -143,7 +165,7 @@ html {
 .warningTextGood {
   text-align: center;
   font-size: 20px;
-  color: #1C1C1C;
+  color: #00b56a;
   font-family: 'Nunito';
   padding-top: 10px;
 }
@@ -151,8 +173,7 @@ html {
 .warningTextBad {
   text-align: center;
   font-size: 20px;
-  color: #ff2727;
+  color: #e40000;
   font-family: 'Nunito';
-  text-decoration: underline;
   padding-top: 10px;
 }
