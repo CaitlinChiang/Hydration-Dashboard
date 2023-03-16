@@ -22,7 +22,7 @@ class Main extends Component {
       this.setState({
         initialLevel: val.initialLevel,
         currentLevel: val.currentLevel,
-        percentage: Number((val.currentLevel / val.initialLevel) * 100)
+        percentage: Number((val.currentLevel / val.initialLevel) * 100).toFixed(1)
       })
     })
 
